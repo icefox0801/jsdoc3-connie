@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Document</title>
+        <link rel="stylesheet" href="ui/semantic.min.css">
+        <link rel="stylesheet" href="styles/connie.css">
+    </head>
+    <body>
+        <header class="ui blue inverted menu borderless fixed">
+            <div class="header item">Brand</div>
+            <div class="active item">Link</div>
+            <a class="item">Link</a>
+            <div class="ui dropdown item" tabindex="0">
+                Dropdown
+                <i class="dropdown icon"></i>
+                <div class="menu transition hidden" tabindex="-1">
+                    <div class="item">Action</div>
+                    <div class="item">Another Action</div>
+                    <div class="item">Something else here</div>
+                    <div class="divider"></div>
+                    <div class="item">Separated Link</div>
+                    <div class="divider"></div>
+                    <div class="item">One more separated link</div>
+                </div>
+            </div>
+            <div class="right menu">
+                <div class="item">
+                    <div class="ui transparent inverted icon input">
+                        <i class="search icon"></i>
+                        <input type="text" placeholder="Search">
+                    </div>
+                </div>
+                <a class="item">Link</a>
+            </div>
+        </header>
+        <section class="ui main container">
+            <aside class="ui vertical accordion menu">
+                <div class="item">
+                    <a class="title"><i class="dropdown icon"></i> <b>Types</b></a>
+                    <div class="menu content">
+                        <a class="item">Enterprise</a>
+                        <a class="item">Consumer</a>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="header">CMS Solutions</div>
+                    <div class="menu">
+                        <a class="item">Rails</a>
+                        <a class="item">Python</a>
+                        <a class="item">PHP</a>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="header">Hosting</div>
+                    <div class="menu">
+                        <a class="item">Shared</a>
+                        <a class="item">Dedicated</a>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="header">Support</div>
+                    <div class="menu">
+                        <a class="item">E-mail Support</a>
+                        <a class="item">FAQs</a>
+                    </div>
+                </div>
+            </aside>
+            <article>
+                <div class="ui card">
+                    <div class="content">
+                        <div class="header">Cute Dog</div>
+                        <div class="meta">
+                            <span>2 days ago</span>
+                            <a>Animals</a>
+                        </div>
+                        <p></p>
+                    </div>
+                </div>
+            </article>
+        </section>
+        <?js= content ?>
+        <script src="scripts/jquery.min.js"></script>
+        <script src="ui/semantic.min.js"></script>
+        <script>
+        $(function () {
+        
+        });
+        </script>
+    </body>
+</html>

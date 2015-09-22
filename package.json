@@ -1,0 +1,15 @@
+{
+  "name": "jsdoc3-connie",
+  "version": "1.0.0",
+  "description": "An awesome jsdoc3 template",
+  "main": "publish.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "jsdoc3",
+    "template"
+  ],
+  "author": "",
+  "license": "MIT"
+}
